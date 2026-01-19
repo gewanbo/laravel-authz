@@ -29,7 +29,7 @@ class Rule extends Model
      *
      * @var array
      */
-    protected $fillable = ['ptype', 'v0', 'v1', 'v2', 'v3', 'v4', 'v5'];
+    protected $fillable = ['ptype', 'v0', 'v1', 'v2', 'v3', 'v4', 'v5', 'created_by', 'updated_by'];
 
     /**
      * Create a new Eloquent model instance.
