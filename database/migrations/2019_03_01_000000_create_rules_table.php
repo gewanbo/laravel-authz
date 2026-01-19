@@ -20,6 +20,8 @@ class CreateRulesTable extends Migration
             $table->string('v3')->nullable();
             $table->string('v4')->nullable();
             $table->string('v5')->nullable();
+            $table->string('created_by')->nullable();
+            $table->string('updated_by')->nullable();
             $table->timestamps();
         });
     }
